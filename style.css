@@ -1,0 +1,143 @@
+body {
+    margin: 0; 
+    padding: 0;
+    background-color: #ffffff;
+}
+
+/*Barra de navegação*/
+.navegacao {
+    background-color: #1E3A8A;
+    width: 100%; /*Ocupando toda a largura*/
+    padding: 40px 20px 40px 400px;
+    color: white;
+    font-size: 30px;
+    display: flex;
+}
+
+#orcamento{
+    background-color: #50a9f1;
+    padding: 15px;
+    color: black;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#mecanico{
+    position: absolute;
+    right: 0;
+    margin-top: 7px;
+    width: 190px;
+    height: auto;
+    margin-right: 200px;
+}
+
+/*Nossos serviços*/
+
+.subtitle{
+    margin-top: 50px;
+    font-size: 40px;
+    margin-left: 50px;
+}
+
+.nossos-servicos{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 10px;
+    text-align: center;
+}
+
+#img-icones{
+    padding: 40px 30px;
+    width: 100px;
+    height: auto;
+    
+}
+
+#borda{
+    border: 5px solid #3B82F6;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    border-radius: 20px;
+}
+
+#borda:hover{
+    transform: scale(1.5);
+}
+
+/*Frase experiência*/
+
+.fraseExperiencia{
+    text-align: center;
+    margin-top: 50px;
+}
+
+/*Peças*/
+
+.produtos{
+    margin-top: 50px;
+    font-size: 40px;
+    background-color: #3B82F6;
+}
+
+
+.container-produtos {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 10px;
+    text-align: justify;
+}
+
+#pecas{
+    width: 200px;
+    height: auto;
+    gap: 100px;
+    border-radius: 20px;
+}
+
+
+/*Sobre nós*/
+
+.sobre-nos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    gap: 20px; 
+    margin-top: 10px;
+  }
+  
+  .lado1{
+    flex: 1;
+    font-size: 50px;
+    margin-left: 80px;
+  }
+
+
+  #endereco{
+    font-size: 25px;
+  }
+
+  .subtitle{
+    font-size: 45px;
+  }
+
+  .lado2{
+    flex: 1;
+  }
+  
+  #img-mapa{
+    width: 200px;
+  }
+
+
+  #img-homem{
+    width: 400px;
+    justify-items: center;
+    margin-left: 30px;
+  }
+
